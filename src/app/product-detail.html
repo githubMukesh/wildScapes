@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wildscapes</title>
+  <!-- Google Fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS-->
+  <link href="./styles/style.css" rel="stylesheet">
+  <link href="./styles/header.css" rel="stylesheet">
+  <link href="./styles/product-detail.css" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      var mainDiv = document.getElementById("mainDiv");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        mainDiv.style.marginTop = '230px';
+      } else {
+        x.className = "topnav";
+        mainDiv.style.marginTop = '7%';
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <!-- HEADER SECTION START-->
+  <!-- Main Div start from here  -->
+
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid" id="header">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="../assets/images/logo.png">
+          <label>The product store for IndianWildlifeclub</label>
+        </a>
+
+      </div>
+      <!-- Nav Bar Link-->
+      <div class="topnav" id="myTopnav">
+        <a href="#" class="active">PRODUCT</a>
+        <a href="#">SHOP</a>
+        <a href="#">DEALS</a>
+        <a href="#">ABOUT WILDSCAPES</a>
+        <a href="#">CONTACT US</a>
+        <div id="poweredBy" class="hidden-xs">
+          <img src="../assets/images/iwc_button.jpg" alt="iwc button">
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="glyphicon glyphicon-menu-hamburger"></i>
+        </a>
+      </div>
+      <!-- End of Nav Bar Link-->
+    </div>
+  </nav>
+  <!-- Main Div End here -->
+  <!-- HEADER SECTION END-->
+  <!-- MAIN Content Area Start Here -->
+  <div class="productParentContainer row" id="mainDiv">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="imageContainer">
+          <img src="../assets/images/peacock.jpg" style="height: 100%; width: 100%" alt="loading...">
+        </div>
+        <div class="col-md-12" style="padding: 4%">
+          <!-- <div class="col-md-4 imageCarousel"><img style="height: 100%; width: 100%" src="../assets/images/peacock.jpg" alt="loading..."></div>
+              <div class="col-md-4 imageCarousel"><img style="height: 100%; width: 100%" src="../assets/images/peacock.jpg" alt="loading..."></div>
+              <div class="col-md-4 imageCarousel"><img style="height: 100%; width: 100%" src="../assets/images/peacock.jpg" alt="loading..."></div> -->
+          <!-- Carousel part start from here -->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img style="height: 50%; width: 100%" src="../assets/images/peacock.jpg" alt="Loading...">
+              </div>
+
+              <div class="item">
+                <img style="height: 50%; width: 100%" src="../assets/images/peacock.jpg" alt="Loading...">
+              </div>
+
+              <div class="item">
+                <img style="height: 50%; width: 100%" src="../assets/images/peacock.jpg" alt="Loading...">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!-- End of Carousel part start from here -->
+        </div>
+      </div>
+      <div class="col-md-7">
+        <span>home > prices > stocks > ipsum</span><br>
+        <h2>Product Name</h2>
+        <hr>
+        <div id="productIdentifier">
+          <span class="col-md-3">SKU:#1021954</span>
+          <span class="col-md-3">Category:</span>
+        </div>
+        <div class="priceStyling">Price</div>
+        <div>
+          <h5>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled
+            it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+            PageMaker
+            including versions of Lorem Ipsum.
+          </h5>
+        </div>
+        <div style="margin-top:8%">
+          <div class="buttonInstockGift inStock">In Stock</div>
+          <div class="buttonInstockGift gifts">Gifts</div>
+        </div>
+        <div style="margin-top:5%">
+          <input class="oneStyle" type="number" minlength="0" placeholder="1">
+          <button type="button" class="addToCardStyle">Add to cart</div>
+      </div>
+    </div>
+
+    <!-- End of Image Div-->
+    <!--Start of Row Div-->
+    <div class="row" id="mainDiv" style="margin-top: 1%">
+      <div class="col-md-8">
+        <div style="text-align: center">
+          <ul class="nav nav-tabs">
+            <li class="activeTab"><a data-toggle="tab" href="#home">Home</a></li>
+            <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+            <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+            <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+          </ul>
+        </div>
+        <div class="descriptionDiv">
+          <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in active activeTab">
+
+              <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua.</h5>
+            </div>
+            <div id="menu1" class="tab-pane fade in">
+
+              <h5>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</h5>
+            </div>
+            <div id="menu2" class="tab-pane fade in">
+
+              <h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                totam rem aperiam.</h5>
+            </div>
+            <div id="menu3" class="tab-pane fade in">
+
+              <h5>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div style="text-align: left">SIMILAR PRODUCTS</div>
+        <div class="parentDivOfSimilarProduct">
+          <div class="col-md-6">
+            <div class="repeatedSimilarProducts"></div>
+            <div>
+              <label style="font-weight: 400;">Category name</label><br />
+              <label>Product Name</label><br />
+              <label style="font-weight: 400;">Price</label><br />
+            </div>
+          </div>
+
+          <!-- End of one product-->
+
+          <div class="col-md-6">
+            <div class="repeatedSimilarProducts"></div>
+            <div>
+              <label style="font-weight: 400;">Category name</label><br />
+              <label>Product Name</label><br />
+              <label style="font-weight: 400;">Price</label><br />
+            </div>
+          </div>
+
+          <!--End of second product-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Row Div-->
+
+
+  </div>
+
+
+
+
+  <!-- End of MAIN Content Area Start Here -->
+
+
+  <!--Footer Journey Start -->
+  <footer>
+    <div class="" id="mailingFooter" style="margin-top: 0;">
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <span>Are you Nature Lover?</span>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-7">
+          <img src="../assets/images/mail.png" alt="mail" class="img-responsive" style="height: 55px;">
+        </div>
+        <div class="col-sm-5"></div>
+        <div class="col-sm-7">
+          <h3>Join our mailing list</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootom footer part-->
+
+    <div class="row">
+      <div class="col-sm-12" id="bottomFooter" style="padding: 0;">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4" style="padding-top: 2%;">
+          <form class="form-inline" action="/action_page.php">
+            <div class="form-group">
+              <label for="search">
+                <img src="../assets/images/google.png" alt="google" style="height: 70px;width: 70px;">
+              </label>
+              <input type="text" class="form-control" id="search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            <div class="checkbox">
+              <label><input name="searchBy" type="radio"> &nbsp;web&nbsp;&nbsp;</label>
+            </div>
+            <div class="checkbox">
+              <label><input name="searchBy" type="radio"> www.wildscapes.net</label>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-4"></div>
+
+        <!-- Footer term and condition Block -->
+        <div class="col-sm-12" style="padding: 0;">
+          <div class="col-sm-6" id="termConditionFooterLeft">
+          </div>
+          <div class="col-sm-6" id="termConditionFooterRight">
+            <div class="col-sm-5"></div>
+            <div class="col-sm-3">
+              <h4 class="legaltext">Privacy Policy</h4>
+            </div>
+            <div class="col-sm-4">
+              <h4 class="legaltext">Licensing Information</h4>
+            </div>
+          </div>
+        </div>
+        <!-- End of Footer term and condition Block -->
+
+        <!-- Grey Footer for CopyRight -->
+        <div class="col-sm-12" style="background-color: gainsboro">
+          <p style="text-align:center"> Copyright &copy; IndianWildlifeclub.com 2019</p>
+        </div>
+
+        <!-- End of Grey Footer for CopyRight -->
+
+      </div>
+
+
+    </div>
+
+
+    <!-- End of Bootom footer part-->
+
+  </footer>
+  <!--End of footer Journey Start -->
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

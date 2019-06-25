@@ -1,0 +1,158 @@
+#mainDiv {
+  background-color: #f5f5f5;
+}
+.productParentContainer {
+  background-color:  #f5f5f5 ;
+  padding: 4%;
+}
+
+.imageContainer {
+  height: 80vh;
+  /* width: 80px; */
+}
+
+.productNameStyle {
+  border-bottom: 1px solid #80808063;;
+  padding: 1% 0%;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.priceStyling {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 4% 0%;
+}
+
+.buttonInstockGift {
+  background-color: #ffffff;
+  border: none;
+}
+
+.inStock {
+  width: 15%;
+  padding: 1%;
+  text-align: center;
+  margin-left: 2px;
+  display: inline-block;
+}
+
+.gifts {
+  width: 15%;
+  padding: 1%;
+  text-align: center;
+  margin-right: 1px;
+  margin-left: 2px;
+  display: inline-block;
+}
+
+.oneStyle {
+  display: inline-block;
+  width: 16%;
+  height: 7vh;
+  text-align: center;
+  border: none;
+}
+
+.addToCardStyle {
+  display: inline-block;
+  line-height: 7vh;
+  width: 25%;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  padding: 1px 4px;
+  margin-left: 3%;
+  border-color: black;
+  font-size: 21px;
+
+}
+
+.imageCarousel {
+  height: 20vh;
+  width: 31.3%;
+  margin-right: 2%;
+  padding: 0%;
+}
+.repeatedSimilarProducts {
+  height: 30vh;
+  width: 95%;
+  background-color: #ffffff;
+  margin-top: 10%;
+}
+.labelClass {
+  padding: 0% 3% 0% 0%
+}
+.descriptionDiv {
+  padding-top: 3%;
+  text-align: left;
+  margin-top:1%
+}
+.parentDivOfSimilarProduct {
+     border-top: 1px solid #80808063;
+    margin-top: 5%;
+}
+
+a{
+  color: grey;
+}
+a:hover {
+  color: blue;
+}
+a:focus {
+  color: blue;
+}
+.nav-tabs>li.active>a .nav-tabs>li.active>a:focus .nav-tabs>li.active>a:hover {
+    color: blue !important; }
+
+ .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid black;
+    border-bottom-color: transparent;
+}   
+
+    hr {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: 0;
+      border-top: 1px solid black;
+  }   
+
+  .activeTab {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+
+h5{
+  color: #a9a6a6;
+}
+
+.tab-content>.active  {
+   background-color: #f5f5f5;
+}
+
+span{
+  color: #a9a6a6;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid black;
+}
+
+
+/* Media Queries for Smaller Device */
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+  .productParentContainer {
+    margin-top: 7%;
+    background-color:  #f5f5f5 ;
+    padding: 4%;
+  }
+}
